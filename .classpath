@@ -27,5 +27,14 @@
 	<classpathentry kind="lib" path="jarfiles/jsoup-1.9.2.jar"/>
 	<classpathentry kind="lib" path="jarfiles/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="jarfiles/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="jarfiles/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="jarfiles/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="jarfiles/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="jarfiles/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="jarfiles/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="jarfiles/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="jarfiles/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="jarfiles/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="jarfiles/mockito-all-2.0.2-beta.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

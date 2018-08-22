@@ -34,7 +34,7 @@ public class Utility
 		}
 		else if(browserName.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.firefox.driver", "./exefiles/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "./exefiles/geckodriver.exe");
 			driver = new FirefoxDriver();
 			logger.info("Firefox browser launched");
 		}
