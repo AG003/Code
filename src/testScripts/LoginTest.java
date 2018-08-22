@@ -22,7 +22,12 @@ public class LoginTest extends Utility{
 		
 		LoginPage.validLogin(driver, uname, pass);
 		logger.info("logged in successfully");
-		HomePage.skipYourContribution(driver);
+		
+		if (browserName.equalsIgnoreCase("chrome")) 
+		{
+			HomePage.skipYourContribution(driver);
+		}
+		
 		BasePage.logoutApplication(driver);
 		logger.info("Logged out successfully");
 		String result = BasePage.verifyLogout(driver);
