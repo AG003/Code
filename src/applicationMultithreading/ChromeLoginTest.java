@@ -24,8 +24,8 @@ public class ChromeLoginTest implements Runnable
 		WaitStatementLib.iWaitForSecs(driver, 15);
 		driver.navigate().to(PropertiesLib.getValue("url"));
 		
-		driver.findElement(By.id("txtLoginName")).sendKeys("agupta31");
-		driver.findElement(By.id("txtPassword")).sendKeys("Ent@007XAV");
+		driver.findElement(By.id("txtLoginName")).sendKeys("uname");
+		driver.findElement(By.id("txtPassword")).sendKeys("pass");
 		driver.findElement(By.id("btnLogin")).click();
 		
 		WebElement skipElement = driver.findElement(By.id("skip"));
